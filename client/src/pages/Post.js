@@ -1,9 +1,23 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+
 
 function Post() {
 
-  const posts = [{"PostName":"Latest articles","PostPhotoUrl":"https://mdbcdn.b-cdn.net/img/new/standard/city/024.webp","PostPlacer":"Joe Svan","PostAbout":"\t \t                        Curabitur tristique, mi a mollis sagittis, metus felis mattis                         arcu, non vehicula nisl dui quis diam. Mauris ut risus eget                         massa volutpat feugiat. Donec.                       ","PostFullAbout":"/404"},{"PostName":"Menzere","PostPhotoUrl":"https://mdbootstrap.com/img/new/standard/nature/182.jpg","PostPlacer":" Elsever Emirli","PostAbout":"Some quick example text to build on the card title and make up the bulk of the card's content.","PostFullAbout":"/404"},{"PostName":"Some","PostPhotoUrl":"https://mdbootstrap.com/img/new/standard/nature/184.jpg","PostPlacer":" Elsever Emirli","PostAbout":"Some quick example text to build on the card title and make up the bulk of the card's content.","PostFullAbout":"/404"}]
+  const posts = [
+    {"PostName":"Latest articles",
+    "PostPhotoUrl":"https://mdbcdn.b-cdn.net/img/new/standard/city/024.webp",
+    "PostPlacer":"Joe Svan",
+    "PostAbout":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "PostFullAbout":"https://github.com/Elsever-Emirli/elsever"},
+    {"PostName":"Menzere",
+    "PostPhotoUrl":"https://mdbootstrap.com/img/new/standard/nature/182.jpg",
+    "PostPlacer":" Elsever Emirli",
+    "PostAbout":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "PostFullAbout":"https://github.com/Elsever-Emirli/elsever"},
+    {"PostName":"Some",
+    "PostPhotoUrl":"https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    "PostPlacer":" Elsever Emirli",
+    "PostAbout":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "PostFullAbout":"https://github.com/Elsever-Emirli/elsever"}]
 
   return (
     <div>
@@ -11,9 +25,9 @@ function Post() {
           <div className="container my-24 px-6 mx-auto">
 
             {/* <!-- Section: Design Block --> */}
-            <section className="mb-32 text-gray-800 text-center">
+            <section className="mb-0 text-gray-800 text-center">
 
-              <h2 className="text-3xl font-bold mb-12 pb-4 text-center">Latest articles</h2>
+              <h2 className="text-3xl font-bold mb-9 mt-0 pb-2 text-center">Latest articles</h2>
               <div className="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
 
 

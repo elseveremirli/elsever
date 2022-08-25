@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
     <div>
-        <header> 
+        <header className='mt-0'> 
           {/* <!-- Background image --> */}
           <div className="relative overflow-hidden bg-no-repeat bg-cover" style={
             {backgroundPosition: "50%",backgroundImage: "url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp')",height: "350px"}}>
